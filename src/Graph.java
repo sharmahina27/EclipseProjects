@@ -1,12 +1,8 @@
 import java.util.HashMap;
-import java.util.InputMismatchException;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Map;
 import java.util.Queue;
-import java.util.Scanner;
-
 
 public class Graph {
 	private Map<Integer, LinkedList<Integer>> adjacency_list;
